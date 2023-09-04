@@ -30,11 +30,7 @@ const Header = () => {
               
               </div>
 
-              {/* Hamburger Menu */}
-
-              <div>
-                <Image src={Hamburger} alt="Hamburger Icon"/>
-              </div> 
+              
 
             </div>
         </nav>
