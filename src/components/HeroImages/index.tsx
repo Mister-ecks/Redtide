@@ -8,7 +8,7 @@ import DesktopRightHand from "@/assets/images/DesktopRH.svg"
 const HeroImages = () => {
   return (
     <div>
-        {/* Mobile */}
+        {/* Mobile Image*/}
         <div className="flex justify-between md:hidden">
             <Image src={MobileLeftHand} alt='mobile left hand'/>
             <Image src={MobileRightHand} alt='mobile right hand'/>
