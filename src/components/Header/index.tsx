@@ -1,7 +1,7 @@
 import Image from "next/image"
 import MobileLogo from "@/assets/images/MobileLogo.svg"
 
-// import Hamburger from "@/assets/images/Hamburger.svg"
+import Hamburger from "@/assets/images/Hamburger.svg"
 
 const Header = () => {
   return (
@@ -31,7 +31,8 @@ const Header = () => {
               </div>
 
               
-
+              {/* Hamburger Menu Icon */}
+              <Image src={Hamburger} alt="Hamburger menu" className="md:hidden"/>
             </div>
         </nav>
     </div>
