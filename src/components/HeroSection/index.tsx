@@ -16,7 +16,7 @@ const HeroSection = () => {
 
           {/* Paragraph */}
           <div>
-            <p className="text-[#5B6563] text-xs text-center mt-3 md:text-2xl md:mx-8">
+            <p className="text-[#5B6563] text-xs text-center mx-4 mt-3 md:text-2xl md:mx-8">
               Download our Blood Donation App and Join the Life-Saving
               Community. Your Generous Contribution can Make a Difference!
             </p>
