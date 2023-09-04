@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div>
       <div className="container mt-10 flex flex-col items-center mx-auto justify-between space-y-6  ">
         {/* Text */}
-        <div className="mx-8 md:mx-auto">
+        <div className="">
           {/* Heading */}
           <div className="leading-10 md:leading-[5rem]">
             <h1 className="font-lato text-[2rem] font-black text-[#1A1A1A] text-center md:text-7xl">
