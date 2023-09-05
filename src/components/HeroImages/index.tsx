@@ -15,7 +15,7 @@ const HeroImages = () => {
         </div>
 
         {/* Desktop */}
-        <div className="hidden md:flex justify-between md:mt-[-5rem]">
+        <div className="hidden md:flex justify-between md:mt-[-3rem]">
             <Image src={DesktopLeftHand} alt='Desktop left hand'/>
             <Image src={DesktopRightHand} alt='Desktop Right Hand'/>
         </div>
