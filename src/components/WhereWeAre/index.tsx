@@ -20,7 +20,7 @@ const WhereWeAre = () => {
             </button>
           </div>
           {/* Section icons and buttons */}
-          <div className="px-6 col-start-1 col-end-5">
+          <div className="px-10 col-start-1 col-end-5">
             <div className="container  grid grid-cols-4 grid-flow-row gap-x-2 gap-y-4 md:gap-y-16">
               {/* Mobile */}
               {/* Blood Shortage */}
@@ -65,7 +65,7 @@ const WhereWeAre = () => {
           </div>
 
           <div>
-            <p className="text-white text-lg font-lato font-normal md:text-[1.875rem]">
+            <p className="text-white text-lg font-lato font-normal md:text-[1.875rem] mt-10">
               According to WorldHO, Nigeria requires an average of 1.8 million pints of blood yearly to meet her healthcare needs. <br /> <br /> However, we currently receive only about 500,000 pints of blood each year, leaving a 76% deficit.
             </p>
           </div>
