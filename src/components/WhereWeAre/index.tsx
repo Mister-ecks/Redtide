@@ -58,7 +58,7 @@ const WhereWeAre = () => {
 
         {/* Right Section */}
         {/* Mobile Image */}
-        <div className="border box-border w-full marker: px-4 py-10 bg-[#B80F00] md:pl-[6.06rem] md:pr-[6.25rem] md:py-16 md:space-y-9 md:w-1/2">
+        <div className="box-border w-full marker: px-4 py-10 bg-[#B80F00] md:pl-[6.06rem] md:pr-[6.25rem] md:py-16 md:space-y-9 md:w-1/2">
           <div className=" md:w-auto text-center">
             <Image src={NigerianChildMobile} alt="Nigerian Child Mobile" className="md:hidden mx-auto" />
             <Image src={NigerianChldDesktop} alt="Nigerian Child Desktop" className="hidden md:block mx-auto" />
