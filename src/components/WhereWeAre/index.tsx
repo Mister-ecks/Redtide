@@ -20,7 +20,7 @@ const WhereWeAre = () => {
             </button>
           </div>
           {/* Section icons and buttons */}
-          <div className="px-10 col-start-1 col-end-5">
+          <div className="px-8 col-start-1 col-end-5">
             <div className="container  grid grid-cols-4 grid-flow-row gap-x-2 gap-y-4 md:gap-y-16">
               {/* Mobile */}
               {/* Blood Shortage */}
