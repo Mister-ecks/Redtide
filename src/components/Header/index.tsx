@@ -7,13 +7,14 @@ import Hamburger from "@/assets/images/Hamburger.svg"
 const Header = () => {
   return (
     <div>
-        <nav className="relative container mx-auto p-6 ">
+        <nav className="relative container mx-auto p-6">
             <div className="flex items-center justify-between">
               {/*Mobile Logo */}
               <div>
-                <Image src={MobileLogo} alt="mobile logo"/>
+                <Image src={MobileLogo} alt="mobile logo" />
               </div>
 
+              
 
               {/* Menu Items*/}
               <div className="hidden md:flex space-x-6">
