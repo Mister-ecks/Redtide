@@ -4,6 +4,8 @@ import MobilePhoneIcon from "@/assets/images/MobilePhonePic.svg"
 import DesktopPhoneIcon from "@/assets/images/DesktopPhonePic.svg"
 import HostMobile from "@/assets/images/HostMobile.svg"
 import HostDesktop from "@/assets/images/HostDesktop.svg"
+import VolunteerMobile from "@/assets/images/VolunteerMobiles.svg"
+import VolunteerDesktop from "@/assets/images/VolunteerDesktop.svg"
 
 
 const CardsContainer = () => {
@@ -22,6 +24,12 @@ const CardsContainer = () => {
             info='Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope.'
             picture1={HostMobile}
             picture2={HostDesktop}
+            />
+            <Cards 
+            head='Volunteer or Join Campaign'
+            info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
+            picture1={VolunteerMobile}
+            picture2={VolunteerDesktop}
             />
         </div>
         </section>
