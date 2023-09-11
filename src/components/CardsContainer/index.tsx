@@ -1,40 +1,84 @@
-import React from 'react'
+import React from "react";
 import Cards from "../Cards";
-import MobilePhoneIcon from "@/assets/images/MobilePhonePic.svg"
-import DesktopPhoneIcon from "@/assets/images/DesktopPhonePic.svg"
-import HostMobile from "@/assets/images/HostMobile.svg"
-import HostDesktop from "@/assets/images/HostDesktop.svg"
-import VolunteerMobile from "@/assets/images/VolunteerMobiles.svg"
-import VolunteerDesktop from "@/assets/images/VolunteerDesktop.svg"
-
+import Image from "next/image";
+import MobilePhoneIcon from "@/assets/images/MobilePhonePic.svg";
+import DesktopPhoneIcon from "@/assets/images/DesktopPhonePic.svg";
+import HostMobile from "@/assets/images/HostMobile.svg";
+import HostDesktop from "@/assets/images/HostDesktop.svg";
+import VolunteerMobile from "@/assets/images/VolunteerMobiles.svg";
+import VolunteerDesktop from "@/assets/images/VolunteerDesktop.svg";
 
 const CardsContainer = () => {
   return (
     <div>
-        <section>
-        <div className="flex flex-col mx-auto max-w-full mt-6 md:mt-16 md:max-w-full md:flex-row md:justify-between md:items-center md:mx-[3rem] ">
-            <Cards  
-            head="Donate Blood with the Redtide app" 
-            info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
-            picture1={MobilePhoneIcon}
-            picture2={DesktopPhoneIcon}
+      <section>
+        <div className="flex flex-col mx-auto max-w-full mt-6 md:mt-16 md:max-w-full  md:mx-[3rem] ">
+          {/* Same Two Cards */}
+          <div className="flex flex-col items-center md:flex-row">
+            <Cards
+              head="Donate Blood with the Redtide app"
+              info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
+              picture1={MobilePhoneIcon}
+              picture2={DesktopPhoneIcon}
             />
-            <Cards 
-            head="Host a Blood Drive"
-            info='Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope.'
-            picture1={HostMobile}
-            picture2={HostDesktop}
+            <Cards
+              head="Host a Blood Drive"
+              info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
+              picture1={HostMobile}
+              picture2={HostDesktop}
             />
-            <Cards 
-            head='Volunteer or Join Campaign'
-            info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
-            picture1={VolunteerMobile}
-            picture2={VolunteerDesktop}
-            />
-        </div>
-        </section>
-    </div>
-  )
-}
+          </div>
 
-export default CardsContainer
+          {/* Third Card */}
+          <div>
+            <div className="py-6 px-4 flex flex-col  mx-auto items-center max-w-[26.75rem] md:max-w-[77.5rem] border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row">
+              {/* Photo */}
+              {/* Mobile Phone */}
+              <div className="flex items-center space-x-4">
+                <div>
+                <div className="md:hidden ">
+                <Image src={VolunteerMobile} alt="phone icon" />
+              </div>
+              <div className="hidden md:block">
+                <Image src={VolunteerDesktop} alt="desktop icon" />
+              </div>
+                </div>
+              
+
+              {/* Text */}
+              <div className="max-w-[17.0625rem] flex flex-col  justify-between md:max-w-[47.4375rem]  md:flex-row md:items-center">
+                <div className="flex flex-col space-y-3">
+                  <div>
+                  <h1 className="text-left leading-normal text-lg font-bold md:text-[2.125rem]">
+                    Volunteer or Join Campaign
+                  </h1>
+                  <p className="text-[#1A1A1A] text-left mt-2 text-xs  md:text-2xl md:mt-3">
+                    Join our life-saving mission and become a vital part of the
+                    network that touches hearts, and inspires hope.
+                  </p>
+
+                  </div>
+                 
+                  <div className="md:hidden">
+                  <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00]  md:mt-6 border-[#B80F00] md:border-2 ">Donate</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+              
+              {/* Button */}
+              <div className="hidden md:block">
+                <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00] mt-[0.75rem]  md:mt-6 border-[#B80F00] md:border-2 ">
+                  Donate
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default CardsContainer;
