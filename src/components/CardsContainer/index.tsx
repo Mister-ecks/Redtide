@@ -12,9 +12,9 @@ const CardsContainer = () => {
   return (
     <div>
       <section>
-        <div className="flex flex-col mx-auto max-w-full mt-6 md:mt-16 md:max-w-full  md:mx-[3rem] ">
+        <div className=" flex flex-col mx-auto max-w-full mt-6 md:mt-16 md:max-w-full  md:mx-[3rem] ">
           {/* Same Two Cards */}
-          <div className="flex flex-col items-center md:flex-row">
+          <div className="flex flex-col items-center mx-auto md:flex-row md:justify-center">
             <Cards
               head="Donate Blood with the Redtide app"
               info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
@@ -30,8 +30,9 @@ const CardsContainer = () => {
           </div>
 
           {/* Third Card */}
-          <div>
-            <div className="py-6 px-4 flex flex-col  mx-auto items-center max-w-[26.75rem] md:max-w-[77.5rem] border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row">
+          <div className="">
+            <div className="py-6 px-4 flex flex-col  mx-auto items-center max-w-[26.75rem] md:max-w-[77.5rem] border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:mx-auto md:px-10
+            md:items-center">
               {/* Photo */}
               {/* Mobile Phone */}
               <div className="flex items-center space-x-4">

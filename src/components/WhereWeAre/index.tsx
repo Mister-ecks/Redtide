@@ -13,9 +13,9 @@ const WhereWeAre = () => {
   return (
     <div>
       {/* Where we are */}
-      <div className="gap-y-12   max-w-full  grid mt-20 mx-auto md:mt-0 md:mx-0 md:flex md:justify-between md:gap-y-0 md:grid-cols-2">
+      <div className="gap-y-12    max-w-full  grid mt-20 mx-auto md:mt-0 md:mx-0 md:flex md:justify-between md:gap-y-0 md:grid-cols-2">
         {/* Left Section */}
-        <div className="grid max-w-[24] mx-auto  grid-cols-4 gap-y-6 md:max-w-full md:py-16">
+        <div className="grid max-w-[24rem] mx-auto  grid-cols-4 gap-y-6 md:max-w-full  md:py-16">
           {/* Where we are button */}
           <div className="col-start-2 col-end-4 mx-auto md:col-span-5 md:mx-0 md:px-8 md:mt-[6rem]">
             <button className="text-xs font-bold px-[1.12rem] rounded-full py-2 bg-[#FCD1CD] text-[#1A1A1A] font-lato md:text-lg md:py-[0.62rem] md:px-6">
@@ -64,7 +64,7 @@ const WhereWeAre = () => {
 
         {/* Right Section */}
         {/* Mobile Image */}
-        <div className="box-border max-w-full marker: px-4 py-10 bg-[#B80F00] md:pl-[6.06rem] md:pr-[6.25rem] md:py-16 md:space-y-9 md:w-1/2">
+        <div className="box-border max-w-full  px-4 py-10 bg-[#B80F00] md:pl-[6.06rem] md:pr-[6.25rem] md:py-16 md:space-y-9 md:w-1/2">
           <div className=" md:w-auto text-center">
             <Image src={NigerianChildMobile} alt="Nigerian Child Mobile" className="md:hidden mx-auto" />
             <Image src={NigerianChldDesktop} alt="Nigerian Child Desktop" className="hidden md:block mx-auto" />

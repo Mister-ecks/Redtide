@@ -5,6 +5,8 @@ import HeroImages from '@/components/HeroImages'
 import { Inter } from 'next/font/google'
 import WhereWeAre from '@/components/WhereWeAre'
 import WhatYouCanDoContainer from '@/components/WhatYouCanDo'
+import DonateNowHeading from '@/components/DonateNowHeading'
+import StepsforDonation from '@/components/StepsForDonating'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,6 +18,8 @@ const LandingPage = () => {
       <HeroImages/>
       <WhereWeAre/>
       <WhatYouCanDoContainer/>
+      <DonateNowHeading/>
+      <StepsforDonation/>
     </RootLayout>
   )
 }
