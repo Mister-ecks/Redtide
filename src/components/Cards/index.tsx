@@ -14,10 +14,10 @@ const Cards: React.FC<CardsProps> = ({head, info, picture1, picture2}) => {
   return (
     <div>
         <section>
-            <div className='py-6 px-4 flex space-x-4 mx-auto items-center max-w-[26.75rem] md:max-w-[38.625rem] border-b border-b-[#E0E0E0] md:border-b-0'>
+            <div className='py-6 border px-4 flex space-x-4 mx-auto items-center max-w-[26.75rem] md:max-w-[38.625rem] border-b border-b-[#E0E0E0] md:border-b-0'>
                 {/* Photo */}
                 {/* Mobile Phone */}
-                <div className='md:hidden' >
+                <div className='md:hidden ' >
                     <Image src={picture1} alt="phone icon"  />
                 </div>
                 <div className='hidden md:block'>
