@@ -13,21 +13,21 @@ const WhereWeAre = () => {
   return (
     <div>
       {/* Where we are */}
-      <div className="gap-y-12 grid mt-20 mx-auto md:mt-0 md:mx-0 md:flex md:justify-between md:gap-y-0 md:grid-cols-2">
+      <div className="gap-y-12   max-w-full  grid mt-20 mx-auto md:mt-0 md:mx-0 md:flex md:justify-between md:gap-y-0 md:grid-cols-2">
         {/* Left Section */}
-        <div className="grid  grid-cols-4 gap-y-6 md:py-16 md:pl-[6.25rem] ">
+        <div className="grid max-w-[22.0625rem] mx-auto place-content-center gap-x-0 grid-cols-4 gap-y-6 md:max-w-full md:py-16">
           {/* Where we are button */}
-          <div className="col-start-2 col-end-4 mx-auto md:col-span-4 md:mx-0 md:px-8 md:mt-[6rem]">
+          <div className="col-start-2 col-end-4 mx-auto md:col-span-5 md:mx-0 md:px-8 md:mt-[6rem]">
             <button className="text-xs font-bold px-[1.12rem] rounded-full py-2 bg-[#FCD1CD] text-[#1A1A1A] font-lato md:text-lg md:py-[0.62rem] md:px-6">
               WHERE WE ARE
             </button>
           </div>
           {/* Section icons and buttons */}
-          <div className="px-8 col-start-1 col-end-5">
-            <div className="container grid grid-cols-4 grid-flow-row gap-x-2 gap-y-4 md:gap-y-16">
+          <div className=" col-start-1 col-end-5">
+            <div className="container grid grid-cols-4 grid-flow-row gap-x-1 gap-y-4 md:gap-y-16">
               {/* Mobile */}
               {/* Blood Shortage */}
-              <div className="col-start-1 col-end-3 md:col-span-5">
+              <div className="  col-start-1 col-end-3 md:max-w-full md:col-span-5">
                 <div className="flex space-x-1 items-center">
                   <Image src={ActiveBlood} alt="Active Blood" className="md:hidden"/>
                   <Image src={DesktopBloodAlert} alt="Blood Alert" className="hidden md:block"/>
@@ -38,7 +38,7 @@ const WhereWeAre = () => {
               </div>
 
               {/* Critical Impact */}
-              <div className="col-start-3 col-end-5 md:col-span-5">
+              <div className="col-start-3 col-end-5 md:col-span-5 ">
                 <div className="flex space-x-1 items-center">
                   <Image src={DormantAlert} alt="Dormant Alert" className="md:hidden" />
                   <Image src={DesktopAlarmPicture} alt="Desktop Alarm Dormant Picture" className="hidden md:block"/>
