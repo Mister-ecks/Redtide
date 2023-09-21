@@ -26,12 +26,12 @@ const WhereWeAre = () => {
               <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
                 <Image src={ActiveBlood} alt="Active Blood" className="md:hidden"/>
                 <Image src={DesktopBloodAlert} alt="Active blood deskop" className="hidden md:block"/>
-                <h1 className="text-[1.25rem] font-black md:text-[3rem]">Blood Shortage</h1>
+                <h1 className="text-[1.25rem] font-lato font-black md:text-[3rem]">Blood Shortage</h1>
               </button>
               <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
                 <Image src={DormantAlert} alt="Dormant Alert" className="md:hidden"/>
                 <Image src={DesktopAlarmPicture} alt="Dormant Alert Desktop" className="hidden md:block"/>
-                <h1 className="text-[1.25rem] text-[#D1D1D1] font-black md:text-[3rem]">Critical Impact</h1>
+                <h1 className="text-[1.25rem] font-lato text-[#D1D1D1] font-black md:text-[3rem]">Critical Impact</h1>
               </button>
           </div>
 
@@ -40,7 +40,7 @@ const WhereWeAre = () => {
           <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
                 <Image src={DormantHand} alt="Dormant" className="md:hidden"/>
                 <Image src={DesktopHelpPicture} alt="DormalHelpIcon" className="hidden md:block"/>
-                <h1 className="text-[1.25rem] text-[#D1D1D1] font-black md:text-[3rem]">Help Available</h1>
+                <h1 className="text-[1.25rem] font-lato text-[#D1D1D1] font-black md:text-[3rem]">Help Available</h1>
               </button>
           </div>
           </div>
