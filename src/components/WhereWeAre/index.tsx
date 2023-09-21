@@ -12,72 +12,57 @@ import DesktopHelpPicture from "@/assets/images/DesktopHelpPicture.svg"
 const WhereWeAre = () => {
   return (
     <div>
-      {/* Where we are */}
-      <div className="gap-y-12    max-w-full  grid mt-20 mx-auto md:mt-0 md:mx-0 md:flex md:justify-between md:gap-y-0 md:grid-cols-2">
-        {/* Left Section */}
-        <div className="grid max-w-[24rem] mx-auto  grid-cols-4 gap-y-6 md:max-w-full  md:py-16">
-          {/* Where we are button */}
-          <div className="col-start-2 col-end-4 mx-auto md:col-span-5 md:mx-0 md:px-8 md:mt-[6rem]">
-            <button className="text-xs font-bold px-[1.12rem] rounded-full py-2 bg-[#FCD1CD] text-[#1A1A1A] font-lato md:text-lg md:py-[0.62rem] md:px-6">
-              WHERE WE ARE
-            </button>
+      {/* Mobile Section */}
+      <section>
+        {/* Container */}
+        <div className="mx-auto container max-w-full flex flex-col justify-center mt-[5rem] md:flex-row md:mt-0">
+          {/* Where we are */}
+          <div className="mx-auto md:ml-[6.25rem] md:my-auto md:w-1/2">
+          <div className="flex justify-center mb-[1.5rem] md:justify-start md:ml-[1rem]">
+          <button className="text-center font-lato text-[0.75rem] px-[1.12rem] py-[0.5rem] bg-[#FCD1CD] font-bold rounded-full md:px-[1.5rem] md:py-[0.62rem]md:text-[1.125rem]">WHERE WE ARE</button>
           </div>
-          {/* Section icons and buttons */}
-          <div className="col-start-1 col-end-5 ">
-            <div className="container grid grid-cols-4 grid-flow-row gap-x-4 gap-y-4 md:gap-y-16">
-              {/* Mobile */}
-              {/* Blood Shortage */}
-              <div className="col-start-1 max-w-1/2 col-end-3 md:max-w-full md:col-span-5">
-                <div className="flex space-x-1 items-center">
-                  <Image src={ActiveBlood} alt="Active Blood" className="md:hidden"/>
-                  <Image src={DesktopBloodAlert} alt="Blood Alert" className="hidden md:block"/>
-                  <h1 className="text-xl font-black font-lato text-[#1A1A1A] md:text-5xl">
-                    Blood Shortage
-                  </h1>
-                </div>
-              </div>
+          {/* Blood Shortage and Critical Impact */}
+          <div className="flex mx-auto items-center space-x-[1.5rem] md:flex-col md:space-x-0 md:space-y-[4rem] md:items-start">
+              <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
+                <Image src={ActiveBlood} alt="Active Blood" className="md:hidden"/>
+                <Image src={DesktopBloodAlert} alt="Active blood deskop" className="hidden md:block"/>
+                <h1 className="text-[1.25rem] font-black md:text-[3rem]">Blood Shortage</h1>
+              </button>
+              <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
+                <Image src={DormantAlert} alt="Dormant Alert" className="md:hidden"/>
+                <Image src={DesktopAlarmPicture} alt="Dormant Alert Desktop" className="hidden md:block"/>
+                <h1 className="text-[1.25rem] text-[#D1D1D1] font-black md:text-[3rem]">Critical Impact</h1>
+              </button>
+          </div>
 
-              {/* Critical Impact */}
-              <div className="col-start-3 max-w-1/2 col-end-5 md:col-span-5 md:max-w-full">
-                <div className="flex space-x-1 items-center">
-                  <Image src={DormantAlert} alt="Dormant Alert" className="md:hidden" />
-                  <Image src={DesktopAlarmPicture} alt="Desktop Alarm Dormant Picture" className="hidden md:block"/>
-                  <h1 className="text-xl font-black font-lato text-[#D1D1D1] md:text-5xl">
-                    Critical Impact
-                  </h1>
-                </div>
-              </div>
-
-              {/* Help Available */}
-              <div className="col-start-2 col-end-4 md:col-span-5">
-                <div className="flex space-x-1 items-center">
-                  <Image src={DormantHand} alt="Dormant Hand" className="md:hidden" />
-                  <Image src={DesktopHelpPicture} alt="Dormant Desktop Help Picture" className="hidden md:block"/>
-                  <h1 className="text-xl font-black font-lato text-[#D1D1D1] md:text-5xl">
-                    Help Available
-                  </h1>
-                </div>
-              </div>
+          {/* Help Available */}
+          <div className="mx-auto flex justify-center mt-[1rem] md:justify-start md:mt-[4rem]">
+          <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
+                <Image src={DormantHand} alt="Dormant" className="md:hidden"/>
+                <Image src={DesktopHelpPicture} alt="DormalHelpIcon" className="hidden md:block"/>
+                <h1 className="text-[1.25rem] text-[#D1D1D1] font-black md:text-[3rem]">Help Available</h1>
+              </button>
+          </div>
+          </div>
+          
+          
+          <div className="bg-[#B80F00] mt-[3rem] pb-[4.88rem] flex flex-col justify-between max-w-full md:w-1/2 md:pb-[6.19rem]">
+            <div className="mx-auto mt-[4.7rem]">
+            <Image src={NigerianChildMobile} alt="Nigerian Image" className="md:hidden"/>
+            <Image src={NigerianChldDesktop} alt="Nigerian Image Desktop" className="hidden md:block"/>
+            </div>
+            
+            <div className="mx-auto mt-[2.56rem]">
+              <p className="text-[1.125rem] mx-[1.5rem] font-lato text-white md:text-[1.875rem]">According to WorldHO, Nigeria requires an average of 1.8 million pints of blood yearly to meet her healthcare needs. 
+              <br/>
+              <br />
+However, we currently receive only about 500,000 pints of blood each year, leaving a 76% deficit.</p>
             </div>
           </div>
         </div>
-
-        {/* Right Section */}
-        {/* Mobile Image */}
-        <div className="box-border max-w-full  px-4 py-10 bg-[#B80F00] md:pl-[6.06rem] md:pr-[6.25rem] md:py-16 md:space-y-9 md:w-1/2">
-          <div className=" md:w-auto text-center">
-            <Image src={NigerianChildMobile} alt="Nigerian Child Mobile" className="md:hidden mx-auto" />
-            <Image src={NigerianChldDesktop} alt="Nigerian Child Desktop" className="hidden md:block mx-auto" />
-          </div>
-
-          <div>
-            <p className="text-white text-lg font-lato font-normal md:text-[1.875rem] mt-10">
-              According to WorldHO, Nigeria requires an average of 1.8 million pints of blood yearly to meet her healthcare needs. <br /> <br /> However, we currently receive only about 500,000 pints of blood each year, leaving a 76% deficit.
-            </p>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
+
   );
 };
 

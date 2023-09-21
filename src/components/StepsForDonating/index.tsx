@@ -4,6 +4,7 @@ import Step1Mobile from "@/assets/images/Step1Mobile.svg"
 import Step2Mobile from "@/assets/images/Step2Mobile.svg"
 import Step3Mobile from "@/assets/images/Step3Mobile.svg"
 import Step4Mobile from "@/assets/images/Step4Mobile.svg"
+import Step5Mobile from "@/assets/images/Step5Mobile.svg"
 const StepsforDonation = () => {
   return (
     <div>
@@ -26,6 +27,12 @@ const StepsforDonation = () => {
                     <Image src={Step4Mobile} alt='Step 2 Mobile card'/>
                 </div>
             </div>
+            </div>
+            {/* Row Three */}
+            <div className="flex mx-auto">
+                <div className='w-full'>
+                    <Image src={Step5Mobile} alt='Step 5 Mobile card'/>
+                </div>
             </div>
         </section>
     </div>
