@@ -31,7 +31,7 @@ const CardsContainer = () => {
 
           {/* Third Card */}
           <div className="">
-            <div className="py-6 px-4 flex flex-col  mx-auto items-center max-w-[26.75rem] md:max-w-[77.5rem] border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:mx-auto md:px-10
+            <div className="py-6 px-4 flex flex-col  mx-auto items-center max-w-full border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:mx-auto md:px-10
             md:items-center">
               {/* Photo */}
               {/* Mobile Phone */}

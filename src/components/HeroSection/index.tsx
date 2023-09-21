@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div>
-      <div className="container mt-10 flex flex-col items-center mx-auto justify-between space-y-6  ">
+      <div className="container mt-10 flex flex-col items-center mx-auto justify-between space-y-6">
         {/* Text */}
         <div className="">
           {/* Heading */}
