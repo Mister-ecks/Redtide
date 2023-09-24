@@ -17,7 +17,7 @@ const Cards: React.FC<CardsProps> = ({head, info, picture1, picture2}) => {
             <div className='py-6 px-4 flex space-x-4 mx-auto items-center max-w-full border-b border-b-[#E0E0E0] md:border-b-0'>
                 {/* Photo */}
                 {/* Mobile Phone */}
-                <div className='md:hidden ' >
+                <div className='md:hidden' >
                     <Image src={picture1} alt="phone icon"  />
                 </div>
                 <div className='hidden md:block'>

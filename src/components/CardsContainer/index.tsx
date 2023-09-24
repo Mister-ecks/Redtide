@@ -12,7 +12,7 @@ const CardsContainer = () => {
   return (
     <div>
       <section>
-        <div className=" flex flex-col mx-auto max-w-full mt-6 md:mt-16 md:max-w-full  md:mx-[3rem] ">
+        <div className=" flex flex-col mx-auto max-w-full mt-6 md:mt-16   md:mx-[3rem] ">
           {/* Same Two Cards */}
           <div className="flex flex-col items-center mx-auto md:flex-row md:justify-center">
             <Cards
