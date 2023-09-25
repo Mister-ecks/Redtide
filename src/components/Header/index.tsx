@@ -1,6 +1,6 @@
 import Image from "next/image"
 import MobileLogo from "@/assets/images/MobileLogo.svg"
-import DesktopLogo from "@/assets/images/DesktopLogo.svg"
+
 
 import Hamburger from "@/assets/images/Hamburger.svg"
 
@@ -13,6 +13,8 @@ const Header = () => {
               <div>
                 <Image src={MobileLogo} alt="mobile logo" />
               </div>
+
+              {/* Desktop */}
 
               
 
@@ -35,7 +37,9 @@ const Header = () => {
 
               
               {/* Hamburger Menu Icon */}
+              <div>
               <Image src={Hamburger} alt="Hamburger menu" className="md:hidden"/>
+              </div>
             </div>
         </nav>
     </div>

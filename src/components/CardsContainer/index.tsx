@@ -14,7 +14,7 @@ const CardsContainer = () => {
       <section>
         <div className=" flex flex-col mx-auto max-w-full mt-6 md:mt-16   md:mx-[3rem] ">
           {/* Same Two Cards */}
-          <div className="flex flex-col items-center mx-auto md:flex-row md:justify-center">
+          <div className="flex flex-col items-center mx-auto md:flex-row md:justify-between ">
             <Cards
               head="Donate Blood with the Redtide app"
               info="Join our life-saving mission and become a vital part of the network that  touches hearts, and inspires hope."
@@ -30,14 +30,14 @@ const CardsContainer = () => {
           </div>
 
           {/* Third Card */}
-          <div className="">
-            <div className="py-6 px-4 flex flex-col  mx-auto items-center max-w-full border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:mx-auto md:px-10
+          <div className="mx-auto">
+            <div className="py-6 px-4 flex flex-col  mx-auto items-center w-full border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:mx-auto md:px-10
             md:items-center">
               {/* Photo */}
               {/* Mobile Phone */}
               <div className="flex items-center space-x-4">
                 <div>
-                <div className="md:hidden ">
+                <div className="block md:hidden">
                 <Image src={VolunteerMobile} alt="phone icon" />
               </div>
               <div className="hidden md:block">
@@ -47,7 +47,7 @@ const CardsContainer = () => {
               
 
               {/* Text */}
-              <div className="max-w-[17.0625rem] flex flex-col  justify-between md:max-w-[47.4375rem]  md:flex-row md:items-center">
+              <div className="flex flex-col  justify-between  md:flex-row md:items-center">
                 <div className="flex flex-col space-y-3">
                   <div>
                   <h1 className="text-left leading-normal text-lg font-bold md:text-[2.125rem]">
@@ -63,17 +63,18 @@ const CardsContainer = () => {
                   <div className="md:hidden">
                   <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00]  md:mt-6 border-[#B80F00] md:border-2 ">Donate</button>
                   </div>
+
+                  <div className="hidden md:block">
+                <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00] mt-[0.75rem]  md:mt-6 border-[#B80F00] md:border-2 ">
+                  Donate
+                </button>
+              </div>
                   
                 </div>
               </div>
             </div>
               
-              {/* Button */}
-              <div className="hidden md:block">
-                <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00] mt-[0.75rem]  md:mt-6 border-[#B80F00] md:border-2 ">
-                  Donate
-                </button>
-              </div>
+            
             </div>
           </div>
         </div>
