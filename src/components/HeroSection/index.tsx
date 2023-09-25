@@ -25,7 +25,7 @@ const HeroSection = () => {
         {/* Button */}
 
         <a
-          className="py-3 px-[1.12rem] text-sm font-medium bg-[#B80F00] font-inter  rounded-full text-white md:text-[1.0625rem] md:py-4 md:px-6"
+          className="py-3 px-[1.12rem] mx-auto text-sm font-medium bg-[#B80F00] font-inter  rounded-full text-center text-white md:text-[1.0625rem] md:py-4 md:px-6"
           href=""
         >
           Eligible to donate?

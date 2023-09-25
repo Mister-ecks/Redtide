@@ -30,8 +30,8 @@ const CardsContainer = () => {
           </div>
 
           {/* Third Card */}
-          <div className="mx-auto">
-            <div className="py-6 px-4 flex flex-col  mx-auto items-center w-full border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:mx-auto md:px-10
+          <div className="w-full">
+            <div className="py-6 px-4 flex flex-col  mx-auto items-center w-full border-b  border-b-[#E0E0E0] md:justify-between md:border-b-0 md:flex-row md:px-10
             md:items-center">
               {/* Photo */}
               {/* Mobile Phone */}
@@ -53,7 +53,7 @@ const CardsContainer = () => {
                   <h1 className="text-left leading-normal text-lg font-bold md:text-[2.125rem]">
                     Volunteer or Join Campaign
                   </h1>
-                  <p className="text-[#1A1A1A] text-left mt-2 text-xs  md:text-2xl md:mt-3">
+                  <p className="text-[#1A1A1A] text-left mt-2 text-xs  md:text-2xl md:mt-3 md:max-w-[47.4375rem]">
                     Join our life-saving mission and become a vital part of the
                     network that touches hearts, and inspires hope.
                   </p>
@@ -64,17 +64,18 @@ const CardsContainer = () => {
                   <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00]  md:mt-6 border-[#B80F00] md:border-2 ">Donate</button>
                   </div>
 
-                  <div className="hidden md:block">
-                <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00] mt-[0.75rem]  md:mt-6 border-[#B80F00] md:border-2 ">
-                  Donate
-                </button>
-              </div>
+                  
                   
                 </div>
               </div>
             </div>
               
-            
+              {/* Button */}
+              <div className="hidden md:block">
+                <button className="py-3 px-6 text-sm md:text-2xl border rounded-full text-[#B80F00] mt-[0.75rem]  md:mt-6 border-[#B80F00] md:border-2 ">
+                  Donate
+                </button>
+              </div>
             </div>
           </div>
         </div>
