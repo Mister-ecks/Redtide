@@ -14,7 +14,7 @@ const GalleryShowCase
             imageUrl={GirlPlayground}
             text="Heartbeat of Gratitude"
             additionalText="A Journey of Hope and Healing through Blood Donation"
-            marginTop="15rem"
+            marginTop={"5rem"}
           />
           <ImageWithHover
             imageUrl={WomanChild}
