@@ -14,14 +14,14 @@ const Cards: React.FC<CardsProps> = ({head, info, picture1, picture2}) => {
   return (
     <div>
         <section>
-            <div className='py-6 px-4 flex space-x-4 mx-auto items-center max-w-full border-b border-b-[#E0E0E0] md:border-b-0'>
+            <div className='py-6 px-4 flex space-x-5 mx-auto items-center max-w-full border-b border-b-[#E0E0E0]  md:border-b-0'>
                 {/* Photo */}
                 {/* Mobile Phone */}
                 <div  >
-                    <Image src={picture1} alt="phone icon" className='md:hidden'  />
+                    <Image src={picture1} alt="phone icon" className='md:hidden md:w-1/2'  />
                 </div>
                 <div >
-                    <Image src={picture2} alt='desktop icon' className='hidden md:block' />
+                    <Image src={picture2} alt='desktop icon' className='hidden   md:block md:w-[15rem]' />
                 </div>
                 
 

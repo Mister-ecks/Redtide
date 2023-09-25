@@ -35,7 +35,7 @@ const CardsContainer = () => {
             md:items-center">
               {/* Photo */}
               {/* Mobile Phone */}
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-5 md:space-x-6">
                 <div>
                 <div className="block md:hidden">
                 <Image src={VolunteerMobile} alt="phone icon" />
