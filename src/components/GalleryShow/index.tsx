@@ -14,7 +14,7 @@ const GalleryShowCase = () => {
             imageUrl={GirlPlayground}
             text="Heartbeat of Gratitude"
             additionalText="A Journey of Hope and Healing through Blood Donation"
-            marginTop={"20.06rem"}
+            marginTop={"15rem"}
             marginTopDesktop={"31.12rem"}
           />
         </div>
