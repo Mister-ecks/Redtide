@@ -1,9 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import ImageWithHover from "../RedTideGallery";
-import GirlPlayground from "@/assets/images/GirlPlayground.svg";
-import WomanChild from "@/assets/images/WomanChild.svg";
-import OldManDefault from "@/assets/images/OldManDefault.svg";
 
 const OurGallery = () => {
   return (
@@ -33,26 +28,7 @@ const OurGallery = () => {
         </div>
         {/* Images  Section*/}
 
-        <div className="mt-[2.62rem]">
-          <ImageWithHover
-            imageUrl={GirlPlayground}
-            text="Heartbeat of Gratitude"
-            additionalText="A Journey of Hope and Healing through Blood Donation"
-            marginTop="20.06rem"
-          />
-          <ImageWithHover
-            imageUrl={WomanChild}
-            text="For Love's Sake"
-            additionalText="Embracing Life's Precious Moments - The Gift of Blood Donation"
-            marginTop="5rem"
-          />
-          <ImageWithHover
-            imageUrl={OldManDefault}
-            text="The Gift of Time"
-            additionalText="A Tale of Life, Love, and Second Chances with Blood Donors"
-            marginTop="5rem"
-          />
-        </div>
+        
       </section>
     </div>
   );
