@@ -38,12 +38,12 @@ const OurPartners = () => {
         <div className="flex mx-auto justify-center items-center flex-col space-y-[1.5rem] md:space-y-[2rem]">
             {/* Logo div 1 & 2 */}
             <div className="md:flex md:items-center md:space-x-[2rem]">
-            <div className="flex items-center space-x-[1.5rem] md:space-x-[2rem]">
+            <div className="flex items-center justify-center space-x-[1.5rem] md:space-x-[2rem]">
                 <Image src={Logo1Mobile} alt="Logo1Mobile"/>
                 <Image src={Logo2Mobile} alt="Logo2Mobile"/>
             </div>
             {/* Logo div 3 & 4 */}
-            <div className="flex items-center space-x-[1.5rem] md:space-x-[2rem]">
+            <div className="flex items-center justify-center space-x-[1.5rem] md:space-x-[2rem]">
                 <Image src={Logo3Mobile} alt="Logo3Mobile"/>
                 <Image src={Logo4Mobile} alt="Logo4Mobile"/>
             </div>
@@ -51,12 +51,12 @@ const OurPartners = () => {
            
             {/* Logo Div 5 & 6 */}
             <div className="md:flex md:items-center md:space-x-[2rem]">
-            <div className="flex items-center space-x-[1.5rem] md:space-x-[2rem]">
+            <div className="flex items-center justify-center space-x-[1.5rem] md:space-x-[2rem]">
                 <Image src={Logo5Mobile} alt="Logo5Mobile"/>
                 <Image src={Logo6Mobile} alt="Logo6Mobile"/>
             </div>
             {/* Logo div 7 & 8 */}
-            <div className="flex items-center space-x-[1.5rem] md:space-x-2rem">
+            <div className="flex items-center space-x-[1.5rem] md:space-x-2rem justify-center">
                 <Image src={Logo7Mobile} alt="Logo7Mobile"/>
                 <Image src={Logo8Mobile} alt="Logo8Mobile"/>
             </div>

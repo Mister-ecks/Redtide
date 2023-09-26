@@ -6,7 +6,7 @@ import Hamburger from "@/assets/images/Hamburger.svg"
 
 const Header = () => {
   return (
-    <div>
+    <div className="mx-auto">
         <nav className="relative container mx-auto p-6">
             <div className="flex items-center justify-between">
               {/*Mobile Logo */}
@@ -38,7 +38,7 @@ const Header = () => {
               
               {/* Hamburger Menu Icon */}
               <div>
-              <Image src={Hamburger} alt="Hamburger menu" className="md:hidden"/>
+              <Image src={Hamburger} alt="Hamburger menu" className="md:hidden ml-auto"/>
               </div>
             </div>
         </nav>

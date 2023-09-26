@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div>
+    <div className="mx-auto">
       <div className="container mt-10 flex flex-col items-center mx-auto justify-between space-y-6">
         {/* Text */}
         <div className="">
@@ -16,7 +16,7 @@ const HeroSection = () => {
 
           {/* Paragraph */}
           <div>
-            <p className="text-[#5B6563] text-xs text-center mx-4 mt-3 md:text-2xl md:mx-8">
+            <p className="text-[#5B6563] text-xs text-center max-w-[22.5625rem] mt-3 md:text-2xl md:mx-8 md:max-w-full">
               Download our Blood Donation App and Join the Life-Saving
               Community. Your Generous Contribution can Make a Difference!
             </p>
