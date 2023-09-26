@@ -9,13 +9,13 @@ const HeroImages = () => {
   return (
     <div>
         {/* Mobile Image*/}
-        <div className="flex justify-between md:hidden">
+        <div className="flex justify-between items-center md:hidden">
             <Image src={MobileLeftHand} alt='mobile left hand'/>
             <Image src={MobileRightHand} alt='mobile right hand'/>
         </div>
 
         {/* Desktop */}
-        <div className="hidden md:flex justify-between md:mt-[-3rem]">
+        <div className="hidden md:flex justify-between items-center md:mt-[-3rem]">
             <Image src={DesktopLeftHand} alt='Desktop left hand'/>
             <Image src={DesktopRightHand} alt='Desktop Right Hand'/>
         </div>
