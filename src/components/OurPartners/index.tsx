@@ -51,12 +51,12 @@ const OurPartners = () => {
            
             {/* Logo Div 5 & 6 */}
             <div className="md:flex md:items-center md:space-x-[2rem]">
-            <div className="flex items-center justify-center space-x-[1.5rem] md:space-x-[2rem]">
+            <div className="flex items-center justify-center space-x-[1.5rem] mx-auto md:space-x-[2rem]">
                 <Image src={Logo5Mobile} alt="Logo5Mobile"/>
                 <Image src={Logo6Mobile} alt="Logo6Mobile"/>
             </div>
             {/* Logo div 7 & 8 */}
-            <div className="flex items-center space-x-[1.5rem] md:space-x-2rem justify-center">
+            <div className="flex items-center mx-auto space-x-[1.5rem] md:space-x-2rem justify-center">
                 <Image src={Logo7Mobile} alt="Logo7Mobile"/>
                 <Image src={Logo8Mobile} alt="Logo8Mobile"/>
             </div>
