@@ -9,6 +9,7 @@ import DonateNowHeading from '@/components/DonateNowHeading'
 import StepsforDonation from '@/components/StepsForDonating'
 import OurGallery from '@/components/OurGallery'
 import GalleryShowCase from '@/components/GalleryShow'
+import OurPartners from '@/components/OurPartners'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,6 +25,7 @@ const LandingPage = () => {
       <StepsforDonation/>
       <OurGallery/>
       <GalleryShowCase/>
+      <OurPartners/>
     </RootLayout>
   )
 }

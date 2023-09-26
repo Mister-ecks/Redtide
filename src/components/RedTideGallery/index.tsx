@@ -16,8 +16,8 @@ const ImageWithHover: React.FC<ImageWithHoverProps> = ({imageUrl, text, addition
           <Image src={imageUrl} alt="Image" className="max-w-full h-auto w-auto" />
           <div className={`absolute inset-0 flex justify-start items-center bg-black opacity-0 hover:opacity-70  h-auto  transition-opacity duration-500 ease-in-out`}>
             <div className={`font-lato flex flex-col ml-[1.5rem] mt-[${marginTop}] md:mt-[${marginTopDesktop}]`}>
-              <p className="text-white text-[1.12rem]">{text}</p>
-              <p className="text-white text-[0.75rem]">{additionalText}</p>
+              <p className="text-white text-[1.12rem] md:text-[2rem]">{text}</p>
+              <p className="text-white text-[0.75rem] md:text-[1.5rem]">{additionalText}</p>
             </div>
           </div>
         </div>
