@@ -53,7 +53,7 @@ const WhereWeAre = () => {
             </div>
             
             <div className="mx-auto mt-[2.56rem]">
-              <p className="text-[1.125rem] mx-[1.5rem] font-lato text-white md:text-[1.875rem] md:ml-[4rem]">According to WorldHO, Nigeria requires an average of 1.8 million pints of blood yearly to meet her healthcare needs. 
+              <p className="text-[1.125rem] max-w-[23.75rem] font-lato text-white md:text-[1.875rem]  md:max-w-[32.625rem]">According to WorldHO, Nigeria requires an average of 1.8 million pints of blood yearly to meet her healthcare needs. 
               <br/>
               <br />
 However, we currently receive only about 500,000 pints of blood each year, leaving a 76% deficit.</p>
