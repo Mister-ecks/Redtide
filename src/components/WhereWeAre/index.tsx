@@ -23,7 +23,7 @@ const WhereWeAre = () => {
           </div>
           {/* Blood Shortage and Critical Impact */}
           <div className="flex mx-auto items-center space-x-[1.5rem] md:flex-col md:space-x-0 md:space-y-[4rem] md:items-start">
-              <button className="flex items-center space-x-[0.38rem] md:space-x-[0.75rem]">
+              <button className="flex items-center  space-x-[0.38rem] md:space-x-[0.75rem]">
                 <Image src={ActiveBlood} alt="Active Blood" className="md:hidden"/>
                 <Image src={DesktopBloodAlert} alt="Active blood deskop" className="hidden md:block"/>
                 <h1 className="text-[1.25rem] font-lato font-black md:text-[3rem]">Blood Shortage</h1>

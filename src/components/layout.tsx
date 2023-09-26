@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
 	//${jose.variable} font-jose ${kanit.variable} font-kanit
 	return (
-		<div className="mx-auto">
+		<div className="flex flex-col justify-center " >
 			<Header />
 			{children}
 			{/* <Footer /> */}
