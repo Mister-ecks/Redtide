@@ -11,6 +11,7 @@ import OurGallery from '@/components/OurGallery'
 import GalleryShowCase from '@/components/GalleryShow'
 import OurPartners from '@/components/OurPartners'
 import BeAHero from '@/components/BeAHero'
+import MobileApp from '@/components/MobileApplication'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,6 +29,7 @@ const LandingPage = () => {
       <GalleryShowCase/>
       <OurPartners/>
       <BeAHero/>
+      <MobileApp/>
     </RootLayout>
   )
 }
